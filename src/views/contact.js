@@ -36,6 +36,10 @@ function createContactForm(){
     formEl.appendChild(messageArea);
     formEl.appendChild(sendButton);
 
+    formEl.addEventListener("submit", (event) => {
+        event.preventDefault();
+    })
+
     return formEl;
 }
 
