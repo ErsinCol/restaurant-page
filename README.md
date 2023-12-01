@@ -14,6 +14,7 @@ Project link : https://www.theodinproject.com/lessons/node-path-javascript-resta
     - [Prerequisites](#prerequisites)
     - [Installation](#installation)
 - [Usage](#usage)
+- [Scripts](#scripts)
 
 ## Getting Started
 
@@ -49,6 +50,12 @@ To build the project for production:
 ```bash
 npm run build
 ```
+
+### Scripts
+- watch: Run webpack in watch mode.
+- start: Start the development server with webpack.
+- build: Build the project for production.
+- deploy: Deploy the dist directory to GitHub Pages.
 
 ### Live Preview
 https://ersincol.github.io/restaurant-page/
