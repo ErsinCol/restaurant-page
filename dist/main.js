@@ -16,7 +16,7 @@
   \********************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `html, body {\r\n    height: 100%;\r\n    margin: 0;\r\n}\r\n\r\nbody {\r\n    display: flex;\r\n    flex-direction: column;\r\n    min-height: 100vh;\r\n}\r\n\r\n#content {\r\n    flex: 1;\r\n    overflow-y: auto;\r\n}\r\n\r\nheader {\r\n    background-color: #E4FCF9;\r\n    border-bottom: 1px solid black;\r\n}\r\n\r\nnav {\r\n    margin: 0 auto;\r\n}\r\n\r\n.tab-menu {\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: center;\r\n    gap: 2rem;\r\n    padding-top: 1rem;\r\n}\r\n\r\n.tab-menu__tab {\r\n    padding: 1rem;\r\n    border: 1px solid black;\r\n    border-bottom: none;\r\n    border-radius: 0.25rem;\r\n    text-align: center;\r\n    background-color: #ACE6F6;\r\n}\r\n\r\n.tab-menu__tab--active {\r\n    background-color: #4B89AC;\r\n}\r\n\r\nfooter {\r\n    text-align: center;\r\n    border: 1px solid black;\r\n    padding: 1rem;\r\n}`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://restaurant-page/./src/assets/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `html, body {\r\n    height: 100%;\r\n    margin: 0;\r\n}\r\n\r\nbody {\r\n    display: flex;\r\n    flex-direction: column;\r\n    min-height: 100vh;\r\n}\r\n\r\n#content {\r\n    flex: 1;\r\n    overflow-y: auto;\r\n}\r\n\r\nheader {\r\n    background-color: #E4FCF9;\r\n    border-bottom: 1px solid black;\r\n}\r\n\r\nnav {\r\n    margin: 0 auto;\r\n}\r\n\r\n.tab-menu {\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: center;\r\n    gap: 2rem;\r\n    padding-top: 1rem;\r\n}\r\n\r\n.tab-menu__tab {\r\n    padding: 1rem;\r\n    border: 1px solid black;\r\n    border-bottom: none;\r\n    border-radius: 0.25rem;\r\n    text-align: center;\r\n    background-color: #ACE6F6;\r\n}\r\n\r\n.tab-menu__tab--active {\r\n    background-color: #4B89AC;\r\n}\r\n\r\nfooter {\r\n    text-align: center;\r\n    border: 1px solid black;\r\n    padding: 1rem;\r\n}\r\n\r\n.menu {\r\n    display: grid;\r\n    grid-template-columns: repeat(auto-fit, minmax(min(30rem,100%), 1fr));\r\n    gap: 1.5rem;\r\n    padding: 1rem;\r\n}\r\n\r\n.card {\r\n    display: flex;\r\n    flex-direction: column;\r\n    align-items: center;\r\n    gap: 1rem;\r\n    border: 1px solid #ccc;\r\n    border-radius: 1rem;\r\n    padding: 1rem;\r\n}\r\n\r\n.card__name {\r\n    font-size: 1.5rem;\r\n    font-weight: bold;\r\n}\r\n\r\n.card__content {\r\n    font-size: 1rem;\r\n    color: #555;\r\n    text-align: center;\r\n}\r\n\r\n.card__image {\r\n    width: 200px;\r\n    height: 200px;\r\n    object-fit: cover;\r\n    border-radius: 0.25rem;\r\n    transition: transform 0.3s ease-in-out;\r\n}\r\n\r\n.card__image:hover {\r\n    transform: scale(1.05);\r\n}\r\n\r\n.card__price {\r\n    font-size: 1.25rem;\r\n    font-weight: bold;\r\n    color: #e44d26;\r\n}\r\n\r\n::-webkit-scrollbar {\r\n    width: 0.5rem;\r\n    height: 0;\r\n}\r\n::-webkit-scrollbar-track {\r\n    border-radius: 0.5rem;\r\n}\r\n::-webkit-scrollbar-thumb {\r\n    background: #edf2f5;\r\n    border-radius: 0.5rem;\r\n}\r\n::-webkit-scrollbar-thumb:hover {\r\n    background: #bfbfbf;\r\n}`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://restaurant-page/./src/assets/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -130,6 +130,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
+/***/ "./src/menuData.js":
+/*!*************************!*\
+  !*** ./src/menuData.js ***!
+  \*************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _assets_img_Pepperoni_Pizza_webp__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./assets/img/Pepperoni_Pizza.webp */ \"./src/assets/img/Pepperoni_Pizza.webp\");\n/* harmony import */ var _assets_img_Cheese_Pizza_webp__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assets/img/Cheese-Pizza.webp */ \"./src/assets/img/Cheese-Pizza.webp\");\n/* harmony import */ var _assets_img_Veggie_Pizza_webp__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./assets/img/Veggie_Pizza.webp */ \"./src/assets/img/Veggie_Pizza.webp\");\n/* harmony import */ var _assets_img_BBQ_Chicken_Pizza_webp__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./assets/img/BBQ_Chicken_Pizza.webp */ \"./src/assets/img/BBQ_Chicken_Pizza.webp\");\n/* harmony import */ var _assets_img_Meat_Lovers_Pizza_webp__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./assets/img/Meat_Lovers_Pizza.webp */ \"./src/assets/img/Meat_Lovers_Pizza.webp\");\n/* harmony import */ var _assets_img_Margherita_Pizza_webp__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./assets/img/Margherita_Pizza.webp */ \"./src/assets/img/Margherita_Pizza.webp\");\n/* harmony import */ var _assets_img_Buffalo_Pizza_webp__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./assets/img/Buffalo_Pizza.webp */ \"./src/assets/img/Buffalo_Pizza.webp\");\n/* harmony import */ var _assets_img_Hawaiian_Pizza_webp__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./assets/img/Hawaiian_Pizza.webp */ \"./src/assets/img/Hawaiian_Pizza.webp\");\n/* harmony import */ var _assets_img_Supreme_Pizza_webp__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./assets/img/Supreme_Pizza.webp */ \"./src/assets/img/Supreme_Pizza.webp\");\n/* harmony import */ var _assets_img_The_Works_Pizza_webp__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./assets/img/The_Works_Pizza.webp */ \"./src/assets/img/The_Works_Pizza.webp\");\n/* harmony import */ var _assets_img_New_York_Style_Pizza_webp__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./assets/img/New-York-Style-Pizza.webp */ \"./src/assets/img/New-York-Style-Pizza.webp\");\n/* harmony import */ var _assets_img_Chicago_Deep_Dish_Pizza_webp__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./assets/img/Chicago-Deep-Dish-Pizza.webp */ \"./src/assets/img/Chicago-Deep-Dish-Pizza.webp\");\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ([\r\n    {\r\n        name: \"Pepperoni Pizza\",\r\n        content: \"Tomato sauce, mozzarella cheese, pepperoni\",\r\n        price: 12.99,\r\n        photo: _assets_img_Pepperoni_Pizza_webp__WEBPACK_IMPORTED_MODULE_0__,\r\n    },\r\n    {\r\n        name: \"Cheese Pizza\",\r\n        content: \"Tomato sauce, mozzarella cheese\",\r\n        price: 10.99,\r\n        photo: _assets_img_Cheese_Pizza_webp__WEBPACK_IMPORTED_MODULE_1__,\r\n    },\r\n    {\r\n        name: \"Veggie Pizza\",\r\n        content: \"Tomato sauce, mozzarella cheese, assorted vegetables\",\r\n        price: 11.99,\r\n        photo: _assets_img_Veggie_Pizza_webp__WEBPACK_IMPORTED_MODULE_2__,\r\n    },\r\n    {\r\n        name: \"BBQ Chicken Pizza\",\r\n        content: \"BBQ sauce, mozzarella cheese, grilled chicken, red onions\",\r\n        price: 13.99,\r\n        photo: _assets_img_BBQ_Chicken_Pizza_webp__WEBPACK_IMPORTED_MODULE_3__,\r\n    },\r\n    {\r\n        name: \"Meat Lovers’ Pizza\",\r\n        content: \"Tomato sauce, mozzarella cheese, sausage, bacon, ham\",\r\n        price: 14.99,\r\n        photo: _assets_img_Meat_Lovers_Pizza_webp__WEBPACK_IMPORTED_MODULE_4__,\r\n    },\r\n    {\r\n        name: \"Margherita Pizza\",\r\n        content: \"Tomato sauce, mozzarella cheese, fresh basil\",\r\n        price: 11.99,\r\n        photo: _assets_img_Margherita_Pizza_webp__WEBPACK_IMPORTED_MODULE_5__,\r\n    },\r\n    {\r\n        name: \"Buffalo Pizza\",\r\n        content: \"Buffalo sauce, mozzarella cheese, grilled chicken, ranch dressing\",\r\n        price: 13.99,\r\n        photo: _assets_img_Buffalo_Pizza_webp__WEBPACK_IMPORTED_MODULE_6__,\r\n    },\r\n    {\r\n        name: \"Hawaiian Pizza\",\r\n        content: \"Tomato sauce, mozzarella cheese, ham, pineapple\",\r\n        price: 12.99,\r\n        photo: _assets_img_Hawaiian_Pizza_webp__WEBPACK_IMPORTED_MODULE_7__,\r\n    },\r\n    {\r\n        name: \"Supreme Pizza\",\r\n        content: \"Tomato sauce, mozzarella cheese, pepperoni, sausage, mushrooms, green peppers, onions, black olives\",\r\n        price: 15.99,\r\n        photo: _assets_img_Supreme_Pizza_webp__WEBPACK_IMPORTED_MODULE_8__,\r\n    },\r\n    {\r\n        name: \"The Works Pizza\",\r\n        content: \"Tomato sauce, mozzarella cheese, pepperoni, sausage, mushrooms, green peppers, onions, black olives, bacon\",\r\n        price: 16.99,\r\n        photo: _assets_img_The_Works_Pizza_webp__WEBPACK_IMPORTED_MODULE_9__,\r\n    },\r\n    {\r\n        name: \"New York-Style Pizza\",\r\n        content: \"Classic New York-style pizza with tomato sauce and mozzarella cheese\",\r\n        price: 12.99,\r\n        photo: _assets_img_New_York_Style_Pizza_webp__WEBPACK_IMPORTED_MODULE_10__,\r\n    },\r\n    {\r\n        name: \"Chicago Deep Dish Pizza\",\r\n        content: \"Thick crust, tomato sauce, mozzarella cheese, sausage, onions, green peppers\",\r\n        price: 14.99,\r\n        photo: _assets_img_Chicago_Deep_Dish_Pizza_webp__WEBPACK_IMPORTED_MODULE_11__,\r\n    },\r\n    // Add more pizzas as needed\r\n]);\n\n//# sourceURL=webpack://restaurant-page/./src/menuData.js?");
+
+/***/ }),
+
 /***/ "./src/views/contact.js":
 /*!******************************!*\
   !*** ./src/views/contact.js ***!
@@ -156,7 +166,127 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \***************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* export default binding */ __WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ function __WEBPACK_DEFAULT_EXPORT__() {\r\n    const menuContent = document.createElement(\"div\");\r\n    menuContent.textContent = \"Burası menu page\";\r\n    menuContent.classList.add(\"content__menu\")\r\n\r\n    return menuContent;\r\n}\n\n//# sourceURL=webpack://restaurant-page/./src/views/menu.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* export default binding */ __WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _menuData_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../menuData.js */ \"./src/menuData.js\");\n\r\n\r\nfunction createMenuCard(item){\r\n    const card = document.createElement(\"div\");\r\n    card.classList.add(\"card\");\r\n\r\n    const name = document.createElement(\"div\");\r\n    name.textContent = item.name;\r\n    name.classList.add(\"card__name\");\r\n\r\n    const content = document.createElement(\"div\");\r\n    content.textContent = item.content;\r\n    content.classList.add(\"card__content\");\r\n\r\n    const menuImage = document.createElement(\"img\");\r\n    menuImage.setAttribute(\"src\", item.photo);\r\n    menuImage.setAttribute(\"alt\", item.name);\r\n    menuImage.classList.add(\"card__image\");\r\n\r\n    const price = document.createElement(\"div\");\r\n    price.textContent = `${item.price} $`;\r\n    price.classList.add(\"card__price\");\r\n\r\n    card.appendChild(name);\r\n    card.appendChild(content);\r\n    card.appendChild(menuImage);\r\n    card.appendChild(price);\r\n\r\n    return card;\r\n}\r\n\r\n/* harmony default export */ function __WEBPACK_DEFAULT_EXPORT__() {\r\n    const menuContent = document.createElement(\"div\");\r\n    menuContent.classList.add(\"menu\")\r\n\r\n    _menuData_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"].forEach((item) => {\r\n        const menuCard = createMenuCard(item)\r\n        menuContent.appendChild(menuCard);\r\n    })\r\n\r\n    return menuContent;\r\n}\n\n//# sourceURL=webpack://restaurant-page/./src/views/menu.js?");
+
+/***/ }),
+
+/***/ "./src/assets/img/BBQ_Chicken_Pizza.webp":
+/*!***********************************************!*\
+  !*** ./src/assets/img/BBQ_Chicken_Pizza.webp ***!
+  \***********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"81e5fcd25b551f6716b7.webp\";\n\n//# sourceURL=webpack://restaurant-page/./src/assets/img/BBQ_Chicken_Pizza.webp?");
+
+/***/ }),
+
+/***/ "./src/assets/img/Buffalo_Pizza.webp":
+/*!*******************************************!*\
+  !*** ./src/assets/img/Buffalo_Pizza.webp ***!
+  \*******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"434a70e2b01c14acdfe9.webp\";\n\n//# sourceURL=webpack://restaurant-page/./src/assets/img/Buffalo_Pizza.webp?");
+
+/***/ }),
+
+/***/ "./src/assets/img/Cheese-Pizza.webp":
+/*!******************************************!*\
+  !*** ./src/assets/img/Cheese-Pizza.webp ***!
+  \******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"6217487485922dae5395.webp\";\n\n//# sourceURL=webpack://restaurant-page/./src/assets/img/Cheese-Pizza.webp?");
+
+/***/ }),
+
+/***/ "./src/assets/img/Chicago-Deep-Dish-Pizza.webp":
+/*!*****************************************************!*\
+  !*** ./src/assets/img/Chicago-Deep-Dish-Pizza.webp ***!
+  \*****************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"b252cfcc6f9570d311ee.webp\";\n\n//# sourceURL=webpack://restaurant-page/./src/assets/img/Chicago-Deep-Dish-Pizza.webp?");
+
+/***/ }),
+
+/***/ "./src/assets/img/Hawaiian_Pizza.webp":
+/*!********************************************!*\
+  !*** ./src/assets/img/Hawaiian_Pizza.webp ***!
+  \********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"f35da7f794a2b6e8ad74.webp\";\n\n//# sourceURL=webpack://restaurant-page/./src/assets/img/Hawaiian_Pizza.webp?");
+
+/***/ }),
+
+/***/ "./src/assets/img/Margherita_Pizza.webp":
+/*!**********************************************!*\
+  !*** ./src/assets/img/Margherita_Pizza.webp ***!
+  \**********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"e4f9b352f4c069d56035.webp\";\n\n//# sourceURL=webpack://restaurant-page/./src/assets/img/Margherita_Pizza.webp?");
+
+/***/ }),
+
+/***/ "./src/assets/img/Meat_Lovers_Pizza.webp":
+/*!***********************************************!*\
+  !*** ./src/assets/img/Meat_Lovers_Pizza.webp ***!
+  \***********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"c0bea1c6a056efc1acd4.webp\";\n\n//# sourceURL=webpack://restaurant-page/./src/assets/img/Meat_Lovers_Pizza.webp?");
+
+/***/ }),
+
+/***/ "./src/assets/img/New-York-Style-Pizza.webp":
+/*!**************************************************!*\
+  !*** ./src/assets/img/New-York-Style-Pizza.webp ***!
+  \**************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"ba5ea550cd97e13d33d7.webp\";\n\n//# sourceURL=webpack://restaurant-page/./src/assets/img/New-York-Style-Pizza.webp?");
+
+/***/ }),
+
+/***/ "./src/assets/img/Pepperoni_Pizza.webp":
+/*!*********************************************!*\
+  !*** ./src/assets/img/Pepperoni_Pizza.webp ***!
+  \*********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"e759a5313a4fd89bc963.webp\";\n\n//# sourceURL=webpack://restaurant-page/./src/assets/img/Pepperoni_Pizza.webp?");
+
+/***/ }),
+
+/***/ "./src/assets/img/Supreme_Pizza.webp":
+/*!*******************************************!*\
+  !*** ./src/assets/img/Supreme_Pizza.webp ***!
+  \*******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"f3e939ca29cfb694915b.webp\";\n\n//# sourceURL=webpack://restaurant-page/./src/assets/img/Supreme_Pizza.webp?");
+
+/***/ }),
+
+/***/ "./src/assets/img/The_Works_Pizza.webp":
+/*!*********************************************!*\
+  !*** ./src/assets/img/The_Works_Pizza.webp ***!
+  \*********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"fac066d70af4a7fb2d35.webp\";\n\n//# sourceURL=webpack://restaurant-page/./src/assets/img/The_Works_Pizza.webp?");
+
+/***/ }),
+
+/***/ "./src/assets/img/Veggie_Pizza.webp":
+/*!******************************************!*\
+  !*** ./src/assets/img/Veggie_Pizza.webp ***!
+  \******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"c630df1120020592d5a4.webp\";\n\n//# sourceURL=webpack://restaurant-page/./src/assets/img/Veggie_Pizza.webp?");
 
 /***/ })
 
@@ -211,6 +341,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -225,6 +367,29 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src;
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) {
+/******/ 					var i = scripts.length - 1;
+/******/ 					while (i > -1 && !scriptUrl) scriptUrl = scripts[i--].src;
+/******/ 				}
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/nonce */
