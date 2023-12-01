@@ -1,25 +1,34 @@
 import PizzaIcon from "./assets/img/pizza.png";
 export default function(){
-    const homeHeader = document.createElement("div");
-    homeHeader.classList.add("home-header");
+    const content = document.getElementById("content");
 
-    const pizzaImage = document.createElement("img");
-    pizzaImage.setAttribute("src", PizzaIcon);
-    pizzaImage.setAttribute("alt", "pizza");
-    pizzaImage.setAttribute("width", "32px");
-    pizzaImage.setAttribute("height", "32px");
+    const tabMenu = document.createElement("div");
+    tabMenu.classList.add("tab-menu");
 
-    const headline = document.createElement("h1");
-    headline.textContent = "PIZZA";
+    const homeTab = document.createElement("div");
+    homeTab.textContent = "Home";
+    homeTab.classList.add("tab-menu__tab");
+    homeTab.classList.add("tab-menu__tab--active");
+    const menuTab = document.createElement("div");
+    menuTab.textContent = "Menu"
+    menuTab.classList.add("tab-menu__tab");
+    const contactTab = document.createElement("div");
+    contactTab.textContent = "Contact"
+    contactTab.classList.add("tab-menu__tab");
 
-    homeHeader.appendChild(pizzaImage);
-    homeHeader.appendChild(headline);
-    homeHeader.appendChild(headline);
+    const header = document.createElement("header");
+    const nav = document.createElement("nav");
 
-    const wonderfulText = document.createElement("div");
-    wonderfulText.textContent = "PREMIUM QUALITY, FINEST INGREDIENTS";
+    tabMenu.appendChild(homeTab);
+    tabMenu.appendChild(menuTab);
+    tabMenu.appendChild(contactTab);
 
-    const content = document.getElementById("content")
-    content.appendChild(homeHeader);
-    content.appendChild(wonderfulText);
+    nav.appendChild(tabMenu);
+    header.appendChild(nav);
+
+    const footer = document.createElement("footer");
+    footer.textContent = "Footer";
+
+    document.body.insertBefore(header, content);
+    document.body.appendChild(footer);
 }
