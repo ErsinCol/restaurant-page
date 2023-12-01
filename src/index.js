@@ -1,5 +1,5 @@
 import initializePage from "./initializePage.js";
-import "./assets/style.css";
+import "./assets/style/style.css";
 import homeView from "./views/home";
 import contactView from "./views/contact";
 import menuView from "./views/menu";

@@ -20,18 +20,20 @@ export default function(){
     const contactTab = createTab("Contact", "contact");
 
     const header = document.createElement("header");
+    header.classList.add("header");
     const nav = document.createElement("nav");
+
+    const headline = document.createElement("div");
+    headline.textContent = "PIZZA";
+    headline.classList.add("header__headline");
 
     tabMenu.appendChild(homeTab);
     tabMenu.appendChild(menuTab);
     tabMenu.appendChild(contactTab);
 
     nav.appendChild(tabMenu);
+    header.appendChild(headline);
     header.appendChild(nav);
 
-    const footer = document.createElement("footer");
-    footer.textContent = "Footer";
-
     document.body.insertBefore(header, content);
-    document.body.appendChild(footer);
 }
