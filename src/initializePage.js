@@ -1,20 +1,23 @@
-import PizzaIcon from "./assets/img/pizza.png";
+function createTab(name, dataset){
+    const tab = document.createElement("div");
+    tab.textContent = name;
+    tab.dataset.tab = dataset;
+    tab.classList.add("tab-menu__tab");
+    if(name === "Home"){
+        tab.classList.add("tab-menu__tab--active");
+    }
+    return tab;
+}
+
 export default function(){
     const content = document.getElementById("content");
 
     const tabMenu = document.createElement("div");
     tabMenu.classList.add("tab-menu");
 
-    const homeTab = document.createElement("div");
-    homeTab.textContent = "Home";
-    homeTab.classList.add("tab-menu__tab");
-    homeTab.classList.add("tab-menu__tab--active");
-    const menuTab = document.createElement("div");
-    menuTab.textContent = "Menu"
-    menuTab.classList.add("tab-menu__tab");
-    const contactTab = document.createElement("div");
-    contactTab.textContent = "Contact"
-    contactTab.classList.add("tab-menu__tab");
+    const homeTab = createTab("Home", "home");
+    const menuTab = createTab("Menu", "menu");
+    const contactTab = createTab("Contact", "contact");
 
     const header = document.createElement("header");
     const nav = document.createElement("nav");
